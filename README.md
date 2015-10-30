@@ -12,7 +12,7 @@ Code information:
 
 Package information:
 
-[![Latest Stable Version](https://poser.pugx.org/mjacobus/lever-api-client/v/stable.svg)](https://packagist.org/packages/mjacobus/)
+[![Latest Stable Version](https://poser.pugx.org/mjacobus/lever-api-client/v/stable.svg)](https://packagist.org/packages/mjacobus/lever-api-client)
 [![Total Downloads](https://poser.pugx.org/mjacobus/lever-api-client/downloads.svg)](https://packagist.org/packages/mjacobus/lever-api-client)
 [![Latest Unstable Version](https://poser.pugx.org/mjacobus/lever-api-client/v/unstable.svg)](https://packagist.org/packages/mjacobus/lever-api-client)
 [![License](https://poser.pugx.org/mjacobus/lever-api-client/license.svg)](https://packagist.org/packages/mjacobus/lever-api-client)
