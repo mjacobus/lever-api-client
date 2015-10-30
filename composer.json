@@ -13,7 +13,7 @@
         "guzzlehttp/guzzle" : "~6.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
+        "phpunit/phpunit": "~4.8.16",
         "fabpot/php-cs-fixer": "1.7.*",
         "symfony/console": "~2.7",
         "satooshi/php-coveralls": "dev-master"
