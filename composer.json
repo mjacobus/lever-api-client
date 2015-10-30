@@ -1,0 +1,24 @@
+{
+    "name": "mjacobus/lever-api-client",
+    "description": "Api client for lever",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Jacobus",
+            "email": "marcelo.jacobus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle" : "~6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "fabpot/php-cs-fixer": "1.7.*",
+        "symfony/console": "~2.7",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Lever\\Api\\": "src/"}
+    }
+}

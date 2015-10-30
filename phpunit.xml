@@ -1,0 +1,25 @@
+<phpunit
+  backupGlobals="false"
+  beStrictAboutOutputDuringTests="true"
+  beStrictAboutTestSize="true"
+  beStrictAboutTestsThatDoNotTestAnything="true"
+  bootstrap="./vendor/autoload.php"
+  colors="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+>
+  <testsuites>
+    <testsuite name="Koine Delayed Cache">
+      <directory>./tests</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">src</directory>
+    </whitelist>
+  </filter>
+
+</phpunit>
