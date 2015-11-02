@@ -42,7 +42,7 @@ Append the lib to your requirements key in your composer.json.
 use Lever\Api\Client;
 
 $client = new Client([
-    'apiToken' => '{myApiToken}',
+    'authToken' => '{myApiToken}',
 ]);
 
 $postings = $client->get('/postings', [
