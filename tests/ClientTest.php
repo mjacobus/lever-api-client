@@ -134,6 +134,7 @@ class ClientTest extends PHPUnit_Framework_TestCase
     {
         $response = $this->prophesize(ResponseInterface::class);
         $response->getBody()->willReturn('{"foo":"bar"}');
+
         return $response->reveal();
     }
 

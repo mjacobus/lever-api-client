@@ -24,7 +24,7 @@ class Client
     /**
      * @param array $options
      */
-    public function __construct(array $options = array())
+    public function __construct(array $options = [])
     {
         if (isset($options['endpoint'])) {
             $this->endpoint = trim($options['endpoint'], '/');
@@ -66,7 +66,7 @@ class Client
      *
      * @return array
      */
-    public function post($path, $postData)
+    public function post($path, array $postData)
     {
         return $this->request('POST', $path, ['form_params' => $postData]);
     }
@@ -77,7 +77,7 @@ class Client
      *
      * @return array
      */
-    public function put($path, $putData)
+    public function put($path, array $putData)
     {
         return $this->request('PUT', $path, ['json' => $putData]);
     }
