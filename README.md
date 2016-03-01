@@ -9,6 +9,7 @@ Code information:
 [![Coverage Status](https://coveralls.io/repos/mjacobus/lever-api-client/badge.png)](https://coveralls.io/r/mjacobus/lever-api-client)
 [![Code Climate](https://codeclimate.com/github/mjacobus/lever-api-client.png)](https://codeclimate.com/github/mjacobus/lever-api-client)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mjacobus/lever-api-client/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mjacobus/lever-api-client/?branch=master)
+[![StyleCI](https://styleci.io/repos/45260702/shield)](https://styleci.io/repos/45260702)
 
 Package information:
 
@@ -25,15 +26,8 @@ Package information:
 
 Append the lib to your requirements key in your composer.json.
 
-```javascript
-{
-    // composer.json
-    // [..]
-    require: {
-        // append this line to your requirements
-        "mjacobus/lever-api-client": "dev-master"
-    }
-}
+```bash
+composer require mjacobus/lever-api-client
 ```
 
 ## Usage
@@ -57,7 +51,7 @@ $postings = $client->get('/postings', [
 
 ## Contributing
 
-Only TDD code will be accepted. Please follow the [PSR-2 code standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
+Only tested code will be accepted. Please follow fix the style guide.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -68,7 +62,7 @@ Only TDD code will be accepted. Please follow the [PSR-2 code standard](https://
 ### How to run the tests:
 
 ```bash
-phpunit
+./vendor/bin/phpunit
 ```
 
 ### To check the code standard run:
