@@ -47,7 +47,7 @@ $postings = $client->get('/postings', [
 
 ## Issues/Features proposals
 
-[Here](https://github.com/koinephp/lever-api-client/issues) is the issue tracker.
+[Here](https://github.com/mjacobus/lever-api-client/issues) is the issue tracker.
 
 ## Contributing
 
